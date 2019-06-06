@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Triangle Type</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+    <h1>Triangle Type</h1>
+    <div class="triangle-form">
+      <form id="triangle">
+        <div class="form-group">
+          <label for="side1">Side One:</label>
+          <input id="side1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side2">Side Two:</label>
+          <input id="side2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side3">Side Three:</label>
+          <input id="side3" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn-primary">Go!</button>
+        <button type="reset" class="btn-danger">Reset</button>
+      </form>
+      <div id="output">
+        <p>This triangle is <span id="triangle-type"></span>.</p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
